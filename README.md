@@ -1,68 +1,39 @@
-# my-todo-app
+# To-do Application with NuxtJS
 
-## Build Setup
+## Overview
+This project is a Todo application built with using Vue.js and Nuxt.js, styled with Tailwind CSS. The application provides users with the basic functionality including the ability to create, update, complete, and delete tasks. Additionally, users can toggle between viewing completed and pending tasks.
 
-```bash
+## Technologies Used
+
+- **Vue.js**: A progressive JavaScript framework for building user interfaces.
+- **Nuxt.js**: An intuitive Vue framework that supports server-side rendering and static site generation.
+- **Vuex**: A state management pattern + library for Vue.js applications.
+- **Cypress**: An end-to-end testing framework designed to simplify the process of testing web applications.
+
+## Project setup
+Follow the steps below to setup the project.
+
+# clone the repository
+git clone [https://github.com/yourusername/projectname.git](https://github.com/eliftabak/my-todo-app)
+
+# navigate into the directory
+cd my-todo-app
+
 # install dependencies
-$ yarn install
+yarn install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+yarn dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+Running the tests
+To run the end-to-end tests for the application:
 
-# generate static project
-$ yarn generate
-```
+npm run test
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+### Prerequisites
 
-## Special Directories
+Ensure that Node.js and Yarn are installed on your system. If they aren't, you can download and install Node.js from [here](https://nodejs.org/en/download/) and Yarn from [here](https://yarnpkg.com/getting-started/install).
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+### Setup
 
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+1. Clone the repository:
