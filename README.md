@@ -13,13 +13,13 @@ This project is a Todo application built with using Vue.js and Nuxt.js, styled w
 ## Project setup
 Follow the steps below to setup the project.
 
-# clone the repository
+- clone the repository
 git clone [https://github.com/yourusername/projectname.git](https://github.com/eliftabak/my-todo-app)
 
-# navigate into the directory
+- navigate into the directory
 cd my-todo-app
 
-# install dependencies
+- install dependencies
 yarn install
 
 # serve with hot reload at localhost:3000
@@ -29,6 +29,8 @@ Running the tests
 To run the end-to-end tests for the application:
 
 npm run test
+
+* make sure you run the project at localhost:3000 for tests to run smoothly 
 
 ### Prerequisites
 
