@@ -14,7 +14,7 @@ This project is a Todo application built with using Vue.js and Nuxt.js, styled w
 Follow the steps below to setup the project.
 
 - clone the repository
-git clone [[https://github.com/yourusername/projectname.git](https://github.com/eliftabak/my-todo-app)]
+git clone [[https://github.com/eliftabak/my-todo-app.git](https://github.com/eliftabak/my-todo-app)]
 
 - navigate into the directory
 cd my-todo-app
