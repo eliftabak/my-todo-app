@@ -36,6 +36,3 @@ npm run test
 
 Ensure that Node.js and Yarn are installed on your system. If they aren't, you can download and install Node.js from [here](https://nodejs.org/en/download/) and Yarn from [here](https://yarnpkg.com/getting-started/install).
 
-### Setup
-
-1. Clone the repository:
